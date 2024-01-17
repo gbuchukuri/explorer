@@ -1,16 +1,14 @@
 {
     "chain_name": "Blockx",
     "api": [
-            "https://api.blockxnet.com",
-            "https://mainnet-blockx-api.konsortech.xyz"
-         
-    ],
+                       "https://mainnet-blockx-api.konsortech.xyz"
+           ],
     "rpc": [
 "https://rpc.blockxnet.com",        
 "https://rpc.blockx.indonode.net" ],
        
     "snapshot_provider": "",
-    "sdk_version": "0.45.11",
+    "sdk_version": "0.45.7",
     "coin_type": "118",
     "min_tx_fee": "8000",
     "addr_prefix": "blockx",
