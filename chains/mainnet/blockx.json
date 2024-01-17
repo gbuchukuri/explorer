@@ -1,14 +1,13 @@
 {
     "chain_name": "Blockx",
-    "coingecko": "BlockxNet",
     "api": [
             "https://api.blockxnet.com",
             "https://mainnet-blockx-api.konsortech.xyz"
-           
+         
     ],
     "rpc": [
 "https://rpc.blockxnet.com",        
-"https://rpc.blockx.indonode.net"
+"https://rpc.blockx.indonode.net" ],
        
     "snapshot_provider": "",
     "sdk_version": "0.45.11",
@@ -19,9 +18,9 @@
     "assets": [
         {
             "base": "abcx",
-            "symbol": "BCX",
-            "exponent": "6",
-            "coingecko_id": "BlockxNetwork",
+            "symbol": "bcx",
+            "exponent": "18",
+            "coingecko_id": "blockx",
             "logo": "/logos/blockx.png"
         }
     ]
