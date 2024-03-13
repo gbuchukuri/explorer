@@ -1,0 +1,22 @@
+{
+    "chain_name": "crossfi",
+    "api": [
+        {"provider": "geonodes", "address": "https:194.163.148.35:14137"}],
+    "rpc": [
+        {"provider": "geonodes", "address": "https:194.163.148.35:14567"}, 
+         ],
+    
+    "sdk_version": "v0.47.6",
+    "coin_type": "60",
+    "min_tx_fee": "0",
+    "assets": [{
+        "base": "mpx",
+        "symbol": "PX",
+        "exponent": "18",
+        "coingecko_id": "crossfi",
+        "logo": "/logos/crossfi.svg"
+    }],
+    "addr_prefix": "mx",
+    "theme_color": "#161723",
+    "logo": "/logos/crossfi.svg"
+}
