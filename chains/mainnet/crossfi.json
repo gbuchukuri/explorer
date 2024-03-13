@@ -1,5 +1,5 @@
 {
-    "chain_name": "crossfi"
+    "chain_name": "crossfi" ,
     "api": ["provider": "geonodes", "address": "tcp://194.163.148.35:14317"],
     "rpc": ["provider": "geonodes", "address": "tcp://194.163.148.35:14657"],
     "snapshot_provider": "",
