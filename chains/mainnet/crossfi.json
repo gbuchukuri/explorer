@@ -1,10 +1,7 @@
 {
     "chain_name": "crossfi",
-    "api": [
-        {"provider": "geonodes", "address": "https:194.163.148.35:14137"}],
-    "rpc": [
-        {"provider": "geonodes", "address": "https:194.163.148.35:14567"}, 
-         ],
+    "api": ["provider": "geonodes", "address": "https:194.163.148.35:14137"],
+    "rpc": ["provider": "geonodes", "address": "https:194.163.148.35:14567"],
     
     "sdk_version": "v0.47.6",
     "coin_type": "60",
