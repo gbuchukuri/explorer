@@ -1,7 +1,11 @@
 {
   "chain_name": "crossfi",
-  "api": ["https://api.crossfi.stake-take.com"],
-  "rpc": ["https://rpc.crossfi.stake-take.com"],
+ "api": [
+        {"provider": "Stake-Take", "address": "https://api.crossfi.stake-take.com"}
+    ],
+    "rpc": [
+        {"provider": "Stake-Take", "address": "https://rpc.crossfi.stake-take.com"}
+    ],
   "snapshot_provider": "",
   "sdk_version": "v0.47.6",
   "coin_type": "60",
