@@ -1,7 +1,7 @@
 {
   "chain_name": "crossfi",
-  "api": ["tcp://194.163.148.35:14317"],
-  "rpc": ["tcp://194.163.148.35:14657"],
+  "api": ["https://api.crossfi.stake-take.com"],
+  "rpc": ["https://rpc.crossfi.stake-take.com"],
   "snapshot_provider": "",
   "sdk_version": "v0.47.6",
   "coin_type": "60",
