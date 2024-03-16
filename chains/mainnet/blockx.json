@@ -1,25 +1,28 @@
 {
-    "chain_name": "Blockx",
+    "chain_name": "BlockX",
     "api": [
-                       "https://mainnet-blockx-api.konsortech.xyz"
-           ],
-    "rpc": [
-"https://rpc.blockxnet.com",        
-"https://rpc.blockx.indonode.net" ],
-       
-    "snapshot_provider": "",
-    "sdk_version": "0.45.7",
-    "coin_type": "118",
-    "min_tx_fee": "8000",
-    "addr_prefix": "blockx",
-    "logo": "/logos/blockx.png",
-    "assets": [
         {
-            "base": "abcx",
-            "symbol": "bcx",
-            "exponent": "18",
-            "coingecko_id": "blockx",
-            "logo": "/logos/blockx.png"
+            "address": "https://api.blockxnet.com",
+            "provider": "BlockX"
         }
-    ]
+    ],
+    "rpc": [
+        {
+            "address": "https://rpc.blockxnet.com",
+            "provider": "BlockX"
+        }
+    ],
+    "sdk_version": "0.45.1",
+    "coin_type": "60",
+    "min_tx_fee": "25000000000",
+    "addr_prefix": "blockx",
+    "logo": "https://i.imgur.com/7PRBOzQ.png",
+    "theme_color": "#0d5ad6",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "assets": [{
+        "base": "abcx",
+        "symbol": "BCX",
+        "exponent": "18",
+        "logo": "https://i.imgur.com/7PRBOzQ.png"
+    }]
 }
