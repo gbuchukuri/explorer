@@ -1,0 +1,24 @@
+{
+    "chain_name": "cosmos",
+    "registry_name": "cosmoshub",
+    "api": [
+        {"provider": "pupmos", "address": "https://api-cosmoshub.pupmos.network"},
+        {"provider": "publicnode", "address": "https://cosmos-rest.publicnode.com"},
+        {"provider": "staketab", "address": "https://cosmos-rest.staketab.org"}
+    ],
+    "rpc": [
+        {"provider": "icycro", "address": "https://cosmos-rpc.icycro.org"}
+    ],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "cosmos",
+    "logo": "/logos/cosmos.svg",
+    "assets": [{
+        "base": "uatom",
+        "symbol": "ATOM",
+        "exponent": "6",
+        "coingecko_id": "cosmos", 
+        "logo": "/logos/cosmos.svg"
+    }]
+}
