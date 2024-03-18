@@ -2,9 +2,7 @@
     "chain_name": "cosmos",
     "registry_name": "cosmoshub",
     "api": [
-        {"provider": "pupmos", "address": "https://api-cosmoshub.pupmos.network"},
-        {"provider": "publicnode", "address": "https://cosmos-rest.publicnode.com"},
-        {"provider": "staketab", "address": "https://cosmos-rest.staketab.org"}
+           {"provider": "staketab", "address": "https://cosmos-rest.staketab.org"}
     ],
     "rpc": [
         {"provider": "icycro", "address": "https://cosmos-rpc.icycro.org"}
