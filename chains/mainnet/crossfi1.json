@@ -1,0 +1,17 @@
+{
+  "chain_name": "crossfi",
+  "api": ["https://api.crossfi.stake-take.com"],
+  "rpc": ["https://rpc.crossfi.stake-take.com"],
+  "sdk_version": "v0.47.6",
+  "addr_prefix": "mx",
+  "min_tx_fee": "0",
+  "logo": "/logos/crossfi.jpg",
+  "assets": [
+    {
+      "symbol": "PX",
+      "base": "mpx",
+      "exponent": 18,
+      "logo": "/logos/crossfi.jpg"
+    }
+  ]
+}
